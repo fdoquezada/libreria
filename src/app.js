@@ -9,7 +9,7 @@ const app = express()
 
 app.use(morgan('dev'));
 
-app.use(authRoutes);
+app.use("/api", authRoutes);
 
 
 
